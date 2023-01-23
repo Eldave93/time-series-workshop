@@ -313,7 +313,7 @@ rmse = np.sqrt(mean_squared_error(flights_test, np.exp(ARIMA_predictions)))  # u
 print('RMSE:', rmse.round(2))
 ###12_ex22_end
 
-###12_ex25_start_py
+###12_ex23_start_py
 rail_train = uk_rail_pass.loc[:test_start-pd.DateOffset(months=3)]
 rail_test = uk_rail_pass.loc[test_start:]
 
@@ -363,4 +363,4 @@ plt.show()
 
 rmse = np.sqrt(mean_squared_error(rail_test, np.exp(autoarima_forecast)))  # using np.exp() to cancel the log transformation
 print('RMSE:', rmse.round(2))
-###12_ex25_end
+###12_ex23_end
