@@ -1,0 +1,20 @@
+#### General Dependencies
+graphviz # used for dot files
+pip # Python's package-management system
+wheel # built-package format for pip
+imbalanced-learn==0.8.0 # extends scikit-learn with samplers
+ipython==8.7 # a powerful Python shell
+joblib==0.14 # used to save/load Scikit-Learn models
+kaggle==1.5.9 # used in week 2 for downloading data
+matplotlib==3.5.1 # nice plots.
+numpy==1.21.5 # Powerful n-dimensional arrays and numerical computing tools
+pandas==1.4.1 # data analysis and manipulation tool
+pillow==8.1 # image manipulation library (used by matplotlib.image.imread)
+scikit-learn==1.0.2 # machine learning library
+scipy==1.6 # scientific/technical computing library
+seaborn==0.11.2 # beautiful plots
+tqdm==4.56 # a progress bar library
+widgetsnbextension==3.5 # interactive HTML widgets for Jupyter notebooks
+mlxtend==0.19 # for plotting decision regions
+pycountry==22.3.5 # for country codes
+pmdarima==2.0.2 # for auto-arima
