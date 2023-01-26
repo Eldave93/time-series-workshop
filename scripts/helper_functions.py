@@ -1094,6 +1094,7 @@ def load_covid(UPDATE=False):
     import pandas as pd
     import os
     import re
+    from datetime import date
 
     if UPDATE == True:
         # get the latest covid-19 UK data 
@@ -1132,6 +1133,7 @@ def load_airline_passengers(UPDATE = False):
     import pandas as pd
     import os
     import re
+    from datetime import date
 
     if UPDATE:
         url = "https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/avia_paoc.tsv.gz"
@@ -1157,6 +1159,7 @@ def load_railway_passengers(UPDATE = False):
     import pandas as pd
     import os
     import re
+    from datetime import date
 
     if UPDATE:
         url = "https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/rail_pa_quartal.tsv.gz"
